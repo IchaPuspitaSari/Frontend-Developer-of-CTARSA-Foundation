@@ -44,7 +44,6 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 
 /* Header */
@@ -371,6 +370,10 @@ nav.navbar {
 
 /* Responsive Mobile Hero */
 @media (max-width: 720px) {
+  .hero {
+    height: 100%;
+  }
+
   .hero-offer {
     padding: 270px 35px 0px 30px;
   }
@@ -411,7 +414,6 @@ nav.navbar {
   .hero {
     height: 90vh;
   }
-
   .hero-offer {
     padding: 244px 40px 0px 0px;
   }
