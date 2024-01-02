@@ -524,3 +524,328 @@ nav.navbar {
   }
 }
 /* End Responsive Mockup Section */
+
+/* Info Section-1 */
+.info-section-1 {
+  padding: 120px 0px 120px 0px;
+}
+
+.info-section-1 .info-section-img {
+  position: relative;
+}
+
+.info-section-1 .info-section-img img::first-child {
+  width: 100%;
+  display: block;
+}
+
+.info-section-1 .info-section-img img:last-child {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  width: 250px;
+}
+
+.info-section-offer h1 {
+  color: var(--Dark-Blue, #232340);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.info-section-offer p {
+  color: rgba(35, 35, 64, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 48px;
+}
+/* End Info Section-1 */
+
+/* Responsive Mobile Info Section 1 */
+@media (max-width: 720px) {
+  .info-section-1 {
+    padding: 60px 0px 66px 30px;
+  }
+
+  .info-section-1 .info-section-img img {
+    margin-left: -50px;
+    margin-bottom: 48px;
+  }
+
+  .info-section-1 .info-section-img img:first-child {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  .info-section-1 .info-section-img img:last-child {
+    position: absolute;
+    top: 12px;
+    right: 70px;
+    width: 230px;
+  }
+
+  .info-section-offer h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+  }
+
+  .info-section-offer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 48px;
+  }
+}
+/* End Responsive Mobile Info Section 1 */
+
+/* Responsive Tablet Info Section 1 */
+@media (min-width: 721px) and (max-width: 1080px) {
+  .info-section-1 {
+    padding: 40px 0px 0px 0px;
+    margin: 60px 24px 80px 0px;
+    margin-right: 0;
+  }
+
+  .info-section-1 .info-section-offer p{
+    margin-bottom: 100px;
+  }
+
+  .info-section-1 .info-section-img img {
+    width: 100%;
+    height: auto;
+    margin-left: -100px;
+  }
+
+  .info-section-1 .info-section-img img:first-child {
+    width: auto;
+    display: block;
+    height: 420px;
+  }
+
+  .info-section-1 .info-section-img img:last-child {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    width: 230px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .info-section-offer h1 {
+    line-height: 42px;
+  }
+
+  .info-section-offer p {
+    line-height: 24px;
+  }
+
+  .col-12.col-sm-12.col-md-6.col-lg-7,
+  .col-12.col-sm-12.col-md-6.col-lg-5 {
+    display: flex;
+    align-items: start;
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+/* End Responsive Tablet Info Section 1 */
+
+/* Info Section-2 */
+.info-section-2 {
+  padding: 120px 0px 120px 0px;
+}
+
+.info-section-2 .info-section-img {
+  position: relative;
+}
+
+.info-section-2 .info-section-img img::first-child {
+  width: 100%;
+  display: block;
+}
+
+.info-section-2 .info-section-img img:nth-child(2) {
+  position: absolute;
+  top: 280px;
+  right: 20px;
+  width: 180px;
+}
+
+.info-section-2 .info-section-img img:last-child {
+  position: absolute;
+  top: 370px;
+  right: 20px;
+  width: 180px;
+  height: auto;
+}
+/* End Info Section 2 */
+
+/* Responsive Mobile Info Section 2 */
+@media (max-width: 720px) {
+  .info-section-2 {
+    padding: 60px 0px 66px 30px;
+  }
+
+  .info-section-2 .row {
+    flex-direction: column-reverse;
+  }
+
+  .info-section-2 .info-section-img img {
+    margin-left: -50px;
+    margin-bottom: 48px;
+  }
+
+  .info-section-2 .info-section-img img:first-child {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  .info-section-2 .info-section-img img:nth-child(2) {
+    position: absolute;
+    top: 18px;
+    right: 70px;
+    width: 140px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .info-section-2 .info-section-img img:last-child {
+    position: absolute;
+    top: 84px;
+    right: 70px;
+    width: 140px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* End Responsive Mobile Info Section 2 */
+
+/* Responsive Tablet Info Section 2 */
+@media (min-width: 721px) and (max-width: 1080px) {
+  .info-section-2 {
+    padding: 40px 0px 0px 0px;
+    margin: 60px 24px 80px 0px;
+  }
+
+  .info-section-2 .info-section-img img {
+    width: 100%;
+    height: auto;
+    margin-right: -100px;
+  }
+
+  .info-section-2 .info-section-img img:first-child {
+    width: auto;
+    display: block;
+    height: 420px;
+  }
+
+  .info-section-2 .info-section-img img:nth-child(2) {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    width: 180px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .info-section-2 .info-section-img img:last-child {
+    position: absolute;
+    top: 110px;
+    right: 28px;
+    width: 180px;
+    height: auto;
+    max-width: 100%;
+  }
+}
+/* End Responsive Tablet Info Section 2 */
+
+/* Info Section-3 */
+.info-section-1 .info-section-3-img {
+  position: relative;
+}
+
+.info-section-1 .info-section-3-img img:nth-child(2) {
+  position: absolute;
+  top: 278px;
+  right: 350px;
+  width: 180px;
+}
+
+.info-section-1 .info-section-3-img img:last-child {
+  position: absolute;
+  top: 460px;
+  right: 350px;
+  width: 180px;
+}
+/* End Info Section 3 */
+
+/* Responsive Mobile Info Section 3 */
+@media (max-width: 720px) {
+  .info-section-1 .info-section-3-img img {
+    margin-left: -50px;
+    margin-bottom: 48px;
+  }
+
+  .info-section-1 .info-section-3-img img:first-child {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  .info-section-1 .info-section-3-img img:nth-child(2) {
+    position: absolute;
+    top: 140px;
+    right: 246px;
+    width: 140px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .info-section-1 .info-section-3-img img:last-child {
+    position: absolute;
+    top:280px;
+    right: 246px;
+    width: 140px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* End Responsive Mobile Info Section 3 */
+
+/* Responsive Tablet Info Section 3 */
+@media (min-width: 721px) and (max-width: 1080px) {
+  .info-section-1 .info-section-3-img img {
+    width: 100%;
+    height: auto;
+    margin-left: -100px;
+  }
+
+  .info-section-1 .info-section-3-img img:first-child {
+    width: auto;
+    display: block;
+    height: 420px;
+  }
+
+  .info-section-1 .info-section-3-img img:nth-child(2) {
+    position: absolute;
+    top: 140px;
+    right: 186px;
+    width: 180px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .info-section-1 .info-section-3-img img:last-child {
+    position: absolute;
+    top: 320px;
+    right: 186px;
+    width: 180px;
+    height: auto;
+    max-width: 100%;
+  }
+}
+/* End Responsive Tablet Info Section 3 */
